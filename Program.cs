@@ -11,6 +11,8 @@ namespace DisHub
             Console.WriteLine("Ara a veure que tal desde la vaina aquesta");
                        
             tuNuevaHermana = yo + tuMadre;
+            
+            Console.WriteLine("EL CREADOR DE ESTA RAMA ES GAY");
            
             //A
         }
