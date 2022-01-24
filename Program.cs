@@ -6,7 +6,7 @@ namespace DisHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Este proyecto de Github me recuerda a cuando me secuestraron para trabajar en la guarderia, un autentico infierno");
+            Console.WriteLine("Este proyecto de Github me recuerda a cuando me secuestraron para trabajar en la guarderia, un autentico infierno lleno de demonios y bebés deficientes");
         }
     }
 }
