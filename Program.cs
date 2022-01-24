@@ -6,8 +6,7 @@ namespace DisHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("La cosa aquesta ara si funca tu");
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("La cosa aquesta no funca tu");
         }
     }
 }
