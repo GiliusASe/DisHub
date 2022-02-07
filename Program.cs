@@ -6,10 +6,76 @@ namespace DisHub
     {
         static void Main(string[] args)
         {
-            int coronaviru;
-            Console.WriteLine("Roblox Corporation was founded by David Baszucki and Erik Cassel. Baszucki had previously founded Knowledge Revolution, an educational software company, in 1989. That year, through the company, he and Cassel developed Interactive Physics, a 2D physics simulation.[3][4] Knowledge Revolution followed this up with Working Model, which simulated mechanical devices.[3] The company was eventually purchased in December 1998 for US$20 million by MSC Software, where Baszucki and Cassel obtained senior positions.[3][5] Baszucki was the company's vice president and general manager from 2000 until 2002, when he left MSC Software to establish Baszucki & Associates, an angel investment firm.[5] He and Cassel founded Roblox Corporation in 2004.[4][5] Working from an office in Menlo Park, California, they began preliminary work on the video game DynaBlocks, which was launched in a beta state later that year.[3][5] The game's name was changed to Roblox in 2005, and the game was formally released on September 1, 2006.");
-            coronaviru = convert.ToInt32(Console.Readline());
-            //A
+            do
+            {
+                Console.Clear();
+                //limpia la pantalla per a que els altres menus no es quedin a sobre
+                MostrarOpcions();
+                tecla = Console.ReadKey();
+                switch (tecla.Key)
+                //la propietat key es un enum que pot valer tota la llista tant de teclats estandard com teclats especials
+                {
+                    case ConsoleKey.D0:
+                    case ConsoleKey.NumPad0:
+                        //en cas de pulsar el digit 0 o numpad 0
+                        MissatgeSeguentPantalla("ESTAS SEGUR QUE VOLS SORTIR? 0 PER CONFIRMAR");
+                        break;
+                    //break es per acabar la comanda del case
+                    case ConsoleKey.D1:
+                    case ConsoleKey.NumPad1:
+                        DoAnyTraspas();
+                        MissatgeSeguentPantalla("PREM UNA TECLA PER TORNAR AL MENÚ");
+                        break;
+                    case ConsoleKey.D2:
+                    case ConsoleKey.NumPad2:
+                        DoMCD();
+                        MissatgeSeguentPantalla("PREM UNA TECLA PER TORNAR AL MENÚ");
+                        break;
+                    case ConsoleKey.D3:
+                    case ConsoleKey.NumPad3:
+                        DoMCM() ;
+                        MissatgeSeguentPantalla("PREM UNA TECLA PER TORNAR AL MENU");
+                        break;
+                    case ConsoleKey.D4:
+                    case ConsoleKey.NumPad4:
+                        DoValidarData();
+                        MissatgeSeguentPantalla("PREM UNA TECLA PER TORNAR AL MENU");
+                        break;
+                    case ConsoleKey.D5:
+                    case ConsoleKey.NumPad5:
+                        DoNumeroPrimer();
+                        break;
+                    case ConsoleKey.D6:
+                    case ConsoleKey.NumPad6:
+                        MostrarOpcions2();
+                        break;
+        }
+        public static void MostrarOpcions()
+        {
+            Console.WriteLine("1- ANY DE TRASPAS");
+            Console.WriteLine("2- CALCULAR MCD");
+            Console.WriteLine("3- CALCULAR MCM");
+            Console.WriteLine("4- VALIDAR DATA");
+            Console.WriteLine("5- SABER SI # ES PRIMER")
+            Console.WriteLine("0- EXIT");
+        }
+        public static void MostrarOpcions2()
+        {
+            Console.WriteLine("1- ANY DE TRASPAS");
+            Console.WriteLine("2- CALCULAR MCD");
+            Console.WriteLine("3- CALCULAR MCM");
+            Console.WriteLine("4- VALIDAR DATA");
+            Console.WriteLine("5- SABER SI # ES PRIMER")
+            Console.WriteLine("0- EXIT");
+        }
+        public static void MostrarOpcions3()
+        {
+            Console.WriteLine("1- ANY DE TRASPAS");
+            Console.WriteLine("2- CALCULAR MCD");
+            Console.WriteLine("3- CALCULAR MCM");
+            Console.WriteLine("4- VALIDAR DATA");
+            Console.WriteLine("5- SABER SI # ES PRIMER")
+            Console.WriteLine("0- EXIT");
         }
     }
 }
