@@ -26,5 +26,24 @@ namespace DisHub
             resposta5 = Console.ReadLine();
             DoClear();
         }
+        
+        
+        // Accio que fa preguntes sobre automovils
+        public static void DoAutomovils()
+        {
+            string resposta1, resposta2, resposta3, resposta4, resposta5;
+            Console.WriteLine("Quina es la teva marca preferida ?");
+            resposta1 = Console.ReadLine();
+            Console.WriteLine("Qin es el teu cotxe preferit ?");
+            resposta2 = Console.ReadLine();
+            Console.WriteLine("Que has de fer si veus un semafor en groc ?");
+            resposta3 = Console.ReadLine();
+            Console.WriteLine("En una autopista a quina velocitat has d'anar ?");
+            resposta4 = Console.ReadLine();
+            Console.WriteLine("En un encreuament tu giraras a l'esquerra mentre que el cotxe parat devant teu seguira recte, per on hos creuareu ?");
+            resposta5 = Console.ReadLine();
+            DoClear();
+
+        }
     }
 }
