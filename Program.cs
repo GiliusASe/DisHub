@@ -45,5 +45,24 @@ namespace DisHub
             DoClear();
 
         }
+        
+        
+        // Accio que fa preguntes matemàtiques
+        public static void DoMatematiques()
+        {
+            string resposta1, resposta2, resposta3, resposta4, resposta5;
+            Console.WriteLine("Si tinc 3 pomes i hem menjo 2,5 quantes pomes tinc ?");
+            resposta1 = Console.ReadLine();
+            Console.WriteLine("Si en pep li costa produir llet 50€ el litre i la ven per 75€ el litre quin benefici tindra ?");
+            resposta2 = Console.ReadLine();
+            Console.WriteLine("si tinc 6 amics i 5 galete quantes galetes pertoquen a cadaescu ?");
+            resposta3 = Console.ReadLine();
+            Console.WriteLine("si 1 + 1 es 2 calcula quina es la massa del sol  ?");
+            resposta4 = Console.ReadLine();
+            Console.WriteLine("Resol P = NP ");
+            resposta5 = Console.ReadLine();
+            DoClear();
+
+        }
     }
 }
