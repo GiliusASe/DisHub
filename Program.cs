@@ -29,6 +29,31 @@ namespace DisHub
                         Console.WriteLine("");
                         DoMatematiques();
                         break;
+                    case (ConsoleKey.D4):
+                        Console.WriteLine("");
+                        DoHistoria1();
+                        DoHistoria2();
+                        DoHistoria3();
+                        DoHistoria4();
+                        DoHistoria5();
+                        break;
+                    case (ConsoleKey.D5):
+                        Console.WriteLine("");
+                        DoGeografia1();
+                        DoGeografia2();
+                        DoGeografia3();
+                        DoGeografia4();
+                        DoGeografia5();
+                        break;
+                    case (ConsoleKey.D4):
+                        Console.WriteLine("");
+                        DoArt1();
+                        DoArt2();
+                        DoArt3();
+                        DoArt4();
+                        DoArt5();
+                        break;
+                        
                     default:
                         Console.WriteLine("");
                         Console.WriteLine("Inserta una tecla valida");
@@ -49,6 +74,9 @@ namespace DisHub
             Console.WriteLine("1- Informatica");
             Console.WriteLine("2- Automovils");
             Console.WriteLine("3- Problemes matemàtics");
+            Console.Writeline("4- Test d'història");
+            Console.Writeline("5- Test de geografia");
+            Console.Writeline("6- Test d'art");
         }
 
         public static void DoClear()
@@ -70,11 +98,5 @@ namespace DisHub
                 Console.WriteLine("Error, tecla no acceptada, torna a introduir una tecla valida");
                 DoClear();
             }
-        public static void MostrarOpcions()
-        {
-            Console.WriteLine("---ESCULL EL TEMA PER RESPONDRE LES PREGUNTES---)
-            Console.WriteLine("1- HISTORIA");
-            Console.WriteLine("2- GEOGRAFIA");
-            Console.WriteLine("3- ART");
-    }
+        
 }
