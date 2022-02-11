@@ -99,4 +99,11 @@ namespace DisHub
                 DoClear();
             }
         
+            public static void MissatgeSeguentPantalla(String elMissatge)
+       
+            {
+            Console.WriteLine(elMissatge);
+            Console.ReadKey();
+            //Mostra un missatge personalitzat i obliga a pulsar una tecla
+            }
 }
