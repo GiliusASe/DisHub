@@ -170,5 +170,85 @@ namespace DisHub
             Console.ReadKey();
             Console.Clear();
         }
+        
+         public static void DoVideojocs()
+        {
+            char resposta;
+
+            // Pregunta 1
+            Console.WriteLine("Quin va ser el últim lloc de treball que va ocupar Satoru Iwata a l'empresa Nintendo?");
+            Console.WriteLine("A) President");
+            Console.WriteLine("B) Desenvolupador de Pokemon");
+            Console.WriteLine("C) Dissenyador Grafic");
+            Console.WriteLine("D) Cap de les Anteriors");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'A') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 2
+            Console.WriteLine("Qui es el Director de la saga Dark Souls, Bloodborne, Sekiro Shadows Die Twice entre altres?");
+            Console.WriteLine("A) Yoko Taro");
+            Console.WriteLine("B) Tetsuya Nomura");
+            Console.WriteLine("C) Hidetaka Miyazaki");
+            Console.WriteLine("D) Hideaki Itsuno");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'C') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+               
+            /// Pregunta 3
+            Console.WriteLine("Quina ha sigut la primer entrega de Pokemon aquest any (2020) ?");
+            Console.WriteLine("A) Pokemon Negro ");
+            Console.WriteLine("B) Pokemon Leyendas: Arceus");
+            Console.WriteLine("C) Pokemon Mundo Misterioso 2");
+            Console.WriteLine("D) Pokemon Leyendas: Rek'Sai");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'B') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            //Pregunta 4
+            Console.WriteLine("Quina de aquestes empresas forma part de Tencent?");
+            Console.WriteLine("A) Epic Games");
+            Console.WriteLine("B) Blizzard");
+            Console.WriteLine("C) Supercell");
+            Console.WriteLine("D) Totes son correcres");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'D') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            //Pregunta 5
+            Console.WriteLine("Quin joc va ser el GOTY de 2020?");
+            Console.WriteLine("A) Deathloop");
+            Console.WriteLine("B) Undertale");
+            Console.WriteLine("C) Sekiro: Shadows Die Twice");
+            Console.WriteLine("D) The last of us II");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'D') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+        }
     }
 }
