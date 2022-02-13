@@ -6,7 +6,7 @@ namespace DisHub
     {
         static void Main(string[] args)
         {
-            //TEMES:FISICA,QUIMICA,BIOLOGIA
+            
         }
         //EXECUTA EL TEST DE PREGUNTES SOBRE FISICA
         public static void DoFisica(ConsoleKey Tecla)
