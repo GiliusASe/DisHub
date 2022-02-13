@@ -45,7 +45,7 @@ namespace DisHub
                         DoGeografia4();
                         DoGeografia5();
                         break;
-                    case (ConsoleKey.D4):
+                    case (ConsoleKey.D6):
                         Console.WriteLine("");
                         DoArt1();
                         DoArt2();
