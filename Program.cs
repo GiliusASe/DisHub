@@ -6,9 +6,7 @@ namespace DisHub
     {
         static void Main(string[] args)
         {
-            DoMusica();
-            DoAnime();
-            DoVideojocs();
+            
         }
         
         public static void DoMusica()
