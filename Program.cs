@@ -53,6 +53,18 @@ namespace DisHub
                         DoArt4();
                         DoArt5();
                         break;
+                    case (ConsoleKey.D7):
+                        Console.WriteLine("");
+                        DoMusica();
+                        break;
+                    case (ConsoleKey.D8):
+                        Console.WriteLine("");
+                        DoAnime();
+                        break;
+                    case (ConsoleKey.D9):
+                        Console.WriteLine("");
+                        DoVideojocs();
+                        break;
                         
                     default:
                         Console.WriteLine("");
@@ -77,6 +89,9 @@ namespace DisHub
             Console.Writeline("4- Test d'història");
             Console.Writeline("5- Test de geografia");
             Console.Writeline("6- Test d'art");
+            Console.Writeline("7- Musica");
+            Console.Writeline("8- Anime");
+            Console.Writeline("9- Videojocs");
         }
 
         public static void DoClear()
