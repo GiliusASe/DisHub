@@ -6,6 +6,6 @@ namespace DisHub
     {
         static void Main(string[] args)
         {
-            
+            //TEMES:FISICA,QUIMICA,BIOLOGIA
         }
 }
