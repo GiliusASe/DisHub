@@ -117,4 +117,59 @@ namespace DisHub
             Console.Write("RESPOSTA: ");
             r5 = Console.ReadLine();
         }
+        //ACCIÓ QUE EXECUTA EL TEST RELACIONAT AMB BIOLOGIA
+        public static void DoBiologia(ConsoleKey Tecla)
+        {
+            string r1, r2, r3, r4, r5;
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P1- QUANTS CROMOSOMES TÉ UN SER HUMÀ");
+            Console.WriteLine("1- 23");
+            Console.WriteLine("2- 46");
+            Console.WriteLine("3- 12");
+            Console.WriteLine("4- MES QUE TU");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r1 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P2- APROXIMADAMENT, CADA QUAN ES RENOVA EL SISTEMA INMUNOLÒGIC?");
+            Console.WriteLine("1- 9 ANYS");
+            Console.WriteLine("2- 18 ANYS");
+            Console.WriteLine("3- 3 DIES");
+            Console.WriteLine("4- CADA LLUNA PLENA");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r2 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P3- QUINS SON ELS DOS GRANS TIPUS DE CÈL·LULES?");
+            Console.WriteLine("1- EUCARIOTES I POCAHONTAS");
+            Console.WriteLine("2- EUCLIDES I POKEMON");
+            Console.WriteLine("3- EUCARIOTES I PROCARIOTES");
+            Console.WriteLine("4- LES DEL BARÇA I DEL MADRID");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r3 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P4- QUE SIGNIFICA ADN?");
+            Console.WriteLine("1- ACID DESINFECTA NUCLIS");
+            Console.WriteLine("2- ACCIDENT DESASTROSAMENT NOCIU");
+            Console.WriteLine("3- ACCENT DEL NORD");
+            Console.WriteLine("4- ACID DESOXIRIBO-NUCLEIC");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r4 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P5- QUE ES LA HOMEOSTASIS?");
+            Console.WriteLine("1- ESTAT D'EQUILIBRI ENTRE MASSA CORPORAL I ALTURA");
+            Console.WriteLine("2- ESTAT DE BENESTAR PRODUIT PER VEURE EL BETIS GUANYAR");
+            Console.WriteLine("3- ESTAT D'EQUILIBRI I ESTABILITAT INTERN");
+            Console.WriteLine("4- ESTAT DE FELICITAT PRODUIT PER UN CAP DE SETMANA SENSE PRÀCTIQUES I UNA BOSSA DE CHETTOS");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r5 = Console.ReadLine();
+        }
+
 }
