@@ -62,4 +62,59 @@ namespace DisHub
             Console.Write("RESPOSTA: ");
             r5 = Console.ReadLine();
         }
+        
+        //EXECUTA EL TEST DE LES PREGUNTES SOBRE QUÍMICA
+        public static void DoQuimica(ConsoleKey Tecla)
+        {
+            string r1, r2, r3, r4, r5;
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P1- QUANTS ELEMENTS HI HA A LA TAULA PERIÒDICA?");
+            Console.WriteLine("1- 118");
+            Console.WriteLine("2- 138");
+            Console.WriteLine("3- 256");
+            Console.WriteLine("4- Masses elements");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r1 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P2- Quin és el nombre d'Avogadro?");
+            Console.WriteLine("1- 5.023 x 10^23");
+            Console.WriteLine("2- 6.203 x 10^23");
+            Console.WriteLine("3- 6.023 x 10^23");
+            Console.WriteLine("4- 972.20.94.58");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r2 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P3- QUINS SON ELS ELEMENTS MÉS COMUNS A LA QUIMICA ORGANICA?");
+            Console.WriteLine("1- CARBONI I HIDROGEN");
+            Console.WriteLine("2- AIGUA I OLI");
+            Console.WriteLine("3- SOFRE I NITROGEN");
+            Console.WriteLine("4- URANI I PLUTONI");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r3 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P4- QUANTS ESTATS DE LA MATÈRIA EXISTEIXEN?");
+            Console.WriteLine("1- 2");
+            Console.WriteLine("2- 3");
+            Console.WriteLine("3- INFINITS");
+            Console.WriteLine("4- 4");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r4 = Console.ReadLine();
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("P5- COM S'ANOMENA EL PROCÉS DE PASSAR D'ESTAT SÒLID A GAS DIRECTAMENT?");
+            Console.WriteLine("1- SUMIMACIÓ");
+            Console.WriteLine("2- SUMIMACIÓ INVERSA");
+            Console.WriteLine("3- SUBLIMACIÓ INVERSA");
+            Console.WriteLine("4- SUBLIMACIÓ");
+            Console.WriteLine(" ");
+            Console.Write("RESPOSTA: ");
+            r5 = Console.ReadLine();
+        }
 }
