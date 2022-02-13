@@ -65,7 +65,18 @@ namespace DisHub
                         Console.WriteLine("");
                         DoVideojocs();
                         break;
-                        
+                    case (ConsoleKey.A):
+                        Console.WriteLine("");
+                        DoFisica();
+                        break;
+                    case (ConsoleKey.B):
+                        Console.WriteLine("");
+                        DoQuimica();
+                        break;
+                    case (ConsoleKey.C):
+                        Console.WriteLine("");
+                        DoBiologia();
+                        break;
                     default:
                         Console.WriteLine("");
                         Console.WriteLine("Inserta una tecla valida");
