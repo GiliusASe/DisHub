@@ -103,15 +103,40 @@ namespace DisHub
         {
             string resposta1, resposta2, resposta3, resposta4, resposta5;
             Console.WriteLine("Si tinc 3 pomes i hem menjo 2,5 quantes pomes tinc ?");
+            Console.WriteLine("A) 0'5");
+            Console.WriteLine("B) 1");
+            Console.WriteLine("C) 2");
+            Console.WriteLine("D) 8");
             resposta1 = Console.ReadLine();
+            if (resposta1 == "A") Console.WriteLine("Correcte");
             Console.WriteLine("Si en pep li costa produir llet 50€ el litre i la ven per 75€ el litre quin benefici tindra ?");
+            Console.WriteLine("A) 20€");
+            Console.WriteLine("B) 30€");
+            Console.WriteLine("C) 25€");
+            Console.WriteLine("D) 0€");
             resposta2 = Console.ReadLine();
-            Console.WriteLine("si tinc 6 amics i 5 galete quantes galetes pertoquen a cadaescu ?");
+            if (resposta2 == "C") Console.WriteLine("Correcte");
+            Console.WriteLine("si tinc 6 amics i 6 galete quantes galetes pertoquen a cadaescu ?");
+            Console.WriteLine("A) 1");
+            Console.WriteLine("B) 2");
+            Console.WriteLine("C) 0");
+            Console.WriteLine("D) 9");
             resposta3 = Console.ReadLine();
-            Console.WriteLine("si 1 + 1 es 2 calcula quina es la massa del sol  ?");
+            if (resposta3 == "A") Console.WriteLine("Correcte");
+            Console.WriteLine("si 1 + 1 es 2 calcula 8*90  ?");
+            Console.WriteLine("A) 700");
+            Console.WriteLine("B) 420");
+            Console.WriteLine("C) 1060");
+            Console.WriteLine("D) 720");
             resposta4 = Console.ReadLine();
-            Console.WriteLine("Resol P = NP ");
-            resposta5 = Console.ReadLine();
+            if (resposta4 == "A") Console.WriteLine("Correcte");
+            Console.WriteLine("Es sabuda la solucio de  P = NP ");
+            Console.WriteLine("A) Si");
+            Console.WriteLine("B) No");
+            Console.WriteLine("C) La conec");
+            Console.WriteLine("D) Cap de les anteriors");
+            resposta4 = Console.ReadLine();
+            if (resposta4 == "B") Console.WriteLine("Correcte");
             DoClear();
 
         }
