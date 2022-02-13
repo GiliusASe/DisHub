@@ -59,15 +59,40 @@ namespace DisHub
         {
             string resposta1, resposta2, resposta3, resposta4, resposta5;
             Console.WriteLine("Quina es la teva marca preferida ?");
+            Console.WriteLine("A) Audi");
+            Console.WriteLine("B) BMW");
+            Console.WriteLine("C) Mercedes");
+            Console.WriteLine("D) Altres");
             resposta1 = Console.ReadLine();
-            Console.WriteLine("Qin es el teu cotxe preferit ?");
+            if (resposta1 == "B" || resposta1 == "A" || resposta1 == "C" || resposta1 == "D") Console.WriteLine("Correcte");
+            Console.WriteLine("Per on es condueix el cotxe ?");
+            Console.WriteLine("A) Per la dreta de la via");
+            Console.WriteLine("B) Per el centre de la via");
+            Console.WriteLine("C) Per l'esquerra de la via");
+            Console.WriteLine("D) Per fora de la via");
             resposta2 = Console.ReadLine();
+            if (resposta2 == "A") Console.WriteLine("Correcte");
             Console.WriteLine("Que has de fer si veus un semafor en groc ?");
+            Console.WriteLine("A) Accelerar");
+            Console.WriteLine("B) Desaccelerar");
+            Console.WriteLine("C) Parar en sec");
+            Console.WriteLine("D) Que es un semafor?");
             resposta3 = Console.ReadLine();
+            if (resposta3 == "B") Console.WriteLine("Correcte");
             Console.WriteLine("En una autopista a quina velocitat has d'anar ?");
-            resposta4 = Console.ReadLine();
+            Console.WriteLine("A) La maxima possible");
+            Console.WriteLine("B) 130");
+            Console.WriteLine("C) 100");
+            Console.WriteLine("D) 120");
+            resposta3 = Console.ReadLine();
+            if (resposta3 == "D") Console.WriteLine("Correcte");
             Console.WriteLine("En un encreuament tu giraras a l'esquerra mentre que el cotxe parat devant teu seguira recte, per on hos creuareu ?");
-            resposta5 = Console.ReadLine();
+            Console.WriteLine("A) Per devant");
+            Console.WriteLine("B) Per derrere");
+            Console.WriteLine("C) No ens creurarem");
+            Console.WriteLine("D) cap de les anterirors");
+            resposta3 = Console.ReadLine();
+            if (resposta3 == "B") Console.WriteLine("Correcte");
             DoClear();
 
         }
