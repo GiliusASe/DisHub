@@ -11,19 +11,45 @@ namespace DisHub
         }
         
         // Accio que fa preguntes sobre informatica
-        public static void DoInformatica()
+         public static void DoInformatica()
         {
             string resposta1, resposta2, resposta3, resposta4, resposta5;
             Console.WriteLine("Qina es la part fisica d'una computadora ?");
+            Console.WriteLine("A) Hardware");
+            Console.WriteLine("B) Software");
+            Console.WriteLine("C) El betis");
+            Console.WriteLine("D) L'ordinador");
             resposta1 = Console.ReadLine();
+            if (resposta1 == "A") Console.WriteLine("Correcte");
+
             Console.WriteLine("Quina es la part logica d'una computadora ?");
+            Console.WriteLine("A) Hardware");
+            Console.WriteLine("B) Software");
+            Console.WriteLine("C) El betis");
+            Console.WriteLine("D) L'ordinador");
             resposta2 = Console.ReadLine();
+            if (resposta2 == "B") Console.WriteLine("Correcte");
             Console.WriteLine("Que volen dir les sigles de RAM ?");
+            Console.WriteLine("A) Reunion de Alcholicos Moteros");
+            Console.WriteLine("B) Read Acces Memory");
+            Console.WriteLine("C) Random Acces Memory");
+            Console.WriteLine("D) Ni ver** no se ingles");
             resposta3 = Console.ReadLine();
+            if (resposta3 == "C") Console.WriteLine("Correcte");
             Console.WriteLine("Que indica la mascara de xarxa ?");
+            Console.WriteLine("A) Quina part de la IP pertany a xarxa i quina al numero identificatiu de l'ordinador en aquesta");
+            Console.WriteLine("B) Read Only Memory");
+            Console.WriteLine("C) si has anat a caminar");
+            Console.WriteLine("D) que es carnaval");
             resposta4 = Console.ReadLine();
-            Console.WriteLine("Com funciona el subneting ?");
+            if (resposta4 == "C") Console.WriteLine("Correcte");
+            Console.WriteLine("Que es la ROM ?");
+            Console.WriteLine("A) Beguda alcholica que bebien els pirates");
+            Console.WriteLine("B) Read Only Memory");
+            Console.WriteLine("C) Ritual informatic");
+            Console.WriteLine("D) Es un protocol de xarxa");
             resposta5 = Console.ReadLine();
+            if (resposta5 == "B") Console.WriteLine("Correcte");
             DoClear();
         }
         
