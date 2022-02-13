@@ -4,11 +4,6 @@ namespace DisHub
 {
     class Program
     {
-        // EN el main hi hauria un menu pero al fusionar les diferents accions s'adaptaran al menu del main de la branca master
-        static void Main(string[] args)
-        {
-            
-        }
         
         // Accio que fa preguntes sobre informatica
          public static void DoInformatica()
