@@ -5,6 +5,89 @@ namespace DisHub
     class Program
     {
         
+         static void Main(string[] args)
+        {
+            ConsoleKeyInfo tecla;
+            do
+            {
+                DoMenu();
+                tecla = Console.ReadKey();
+                switch (tecla.Key)
+                {
+                    case ConsoleKey.D0:
+                        Console.WriteLine("");
+                        Console.WriteLine("Finalitzacio del programa");
+                        break;
+                    case (ConsoleKey.D1):
+                        Console.WriteLine("");
+                        DoInformatica();
+                        break;
+                    case (ConsoleKey.D2):
+                        Console.WriteLine("");
+                        DoAutomovils();
+                        break;
+                    case (ConsoleKey.D3):
+                        Console.WriteLine("");
+                        DoMatematiques();
+                        break;
+                    case (ConsoleKey.D4):
+                        Console.WriteLine("");
+                        DoHistoria1();
+                        DoHistoria2();
+                        DoHistoria3();
+                        DoHistoria4();
+                        DoHistoria5();
+                        break;
+                    case (ConsoleKey.D5):
+                        Console.WriteLine("");
+                        DoGeografia1();
+                        DoGeografia2();
+                        DoGeografia3();
+                        DoGeografia4();
+                        DoGeografia5();
+                        break;
+                    case (ConsoleKey.D6):
+                        Console.WriteLine("");
+                        DoArt1();
+                        DoArt2();
+                        DoArt3();
+                        DoArt4();
+                        DoArt5();
+                        break;
+                    case (ConsoleKey.D7):
+                        Console.WriteLine("");
+                        DoMusica();
+                        break;
+                    case (ConsoleKey.D8):
+                        Console.WriteLine("");
+                        DoAnime();
+                        break;
+                    case (ConsoleKey.D9):
+                        Console.WriteLine("");
+                        DoVideojocs();
+                        break;
+                    case (ConsoleKey.A):
+                        Console.WriteLine("");
+                        DoFisica();
+                        break;
+                    case (ConsoleKey.B):
+                        Console.WriteLine("");
+                        DoQuimica();
+                        break;
+                    case (ConsoleKey.C):
+                        Console.WriteLine("");
+                        DoBiologia();
+                        break;
+                    default:
+                        Console.WriteLine("");
+                        Console.WriteLine("Inserta una tecla valida");
+                        break;
+
+                }
+
+            } while (tecla.Key != ConsoleKey.D0);
+        }
+        
         // Accio que fa preguntes sobre informatica
          public static void DoInformatica()
         {
