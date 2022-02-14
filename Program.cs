@@ -435,3 +435,21 @@ namespace DisHub
                     break;
             }
         }
+
+        public static void DoMenu()
+        {
+            Console.WriteLine("Sobre quin tema li agradaria que li fessim preguntes ?");
+            Console.WriteLine("0- Sortir del programa");
+            Console.WriteLine("1- Informatica");
+            Console.WriteLine("2- Automovils");
+            Console.WriteLine("3- Problemes matemàtics");
+            Console.Writeline("4- Test d'història");
+            Console.Writeline("5- Test de geografia");
+            Console.Writeline("6- Test d'art");
+            Console.Writeline("7- Musica");
+            Console.Writeline("8- Anime");
+            Console.Writeline("9- Videojocs");
+            Console.Writeline("F- Fisica");
+            Console.Writeline("Q- Quimica");
+            Console.Writeline("B- Biologia");
+        }
