@@ -519,11 +519,7 @@ namespace DisHub
             }
         }
 
-        public static void DoMenu()
-        
-
-            } while (tecla.Key != ConsoleKey.D0);
-        }
+       
 
 
         public static void DoClear()
