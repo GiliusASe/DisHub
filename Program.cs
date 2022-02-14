@@ -65,15 +65,15 @@ namespace DisHub
                         Console.WriteLine("");
                         DoVideojocs();
                         break;
-                    case (ConsoleKey.A):
+                    case (ConsoleKey.F):
                         Console.WriteLine("");
                         DoFisica();
                         break;
-                    case (ConsoleKey.B):
+                    case (ConsoleKey.Q):
                         Console.WriteLine("");
                         DoQuimica();
                         break;
-                    case (ConsoleKey.C):
+                    case (ConsoleKey.B):
                         Console.WriteLine("");
                         DoBiologia();
                         break;
