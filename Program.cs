@@ -4,9 +4,11 @@ namespace DisHub
 {
     class Program
     {
-        static void Main(string[] args)
+        
+         static void Main(string[] args)
         {
             ConsoleKeyInfo tecla;
+
             do
             {
                 DoMenu();
@@ -87,9 +89,137 @@ namespace DisHub
             } while (tecla.Key != ConsoleKey.D0);
         }
 
+        // Accio que fa preguntes sobre informatica
+         public static void DoInformatica()
+        {
+            string resposta1, resposta2, resposta3, resposta4, resposta5;
+            Console.WriteLine("Qina es la part fisica d'una computadora ?");
+            Console.WriteLine("A) Hardware");
+            Console.WriteLine("B) Software");
+            Console.WriteLine("C) El betis");
+            Console.WriteLine("D) L'ordinador");
+            resposta1 = Console.ReadLine();
+            if (resposta1 == "A") Console.WriteLine("Correcte");
 
+            Console.WriteLine("Quina es la part logica d'una computadora ?");
+            Console.WriteLine("A) Hardware");
+            Console.WriteLine("B) Software");
+            Console.WriteLine("C) El betis");
+            Console.WriteLine("D) L'ordinador");
+            resposta2 = Console.ReadLine();
+            if (resposta2 == "B") Console.WriteLine("Correcte");
+            Console.WriteLine("Que volen dir les sigles de RAM ?");
+            Console.WriteLine("A) Reunion de Alcholicos Moteros");
+            Console.WriteLine("B) Read Acces Memory");
+            Console.WriteLine("C) Random Acces Memory");
+            Console.WriteLine("D) Ni ver** no se ingles");
+            resposta3 = Console.ReadLine();
+            if (resposta3 == "C") Console.WriteLine("Correcte");
+            Console.WriteLine("Que indica la mascara de xarxa ?");
+            Console.WriteLine("A) Quina part de la IP pertany a xarxa i quina al numero identificatiu de l'ordinador en aquesta");
+            Console.WriteLine("B) Read Only Memory");
+            Console.WriteLine("C) si has anat a caminar");
+            Console.WriteLine("D) que es carnaval");
+            resposta4 = Console.ReadLine();
+            if (resposta4 == "C") Console.WriteLine("Correcte");
+            Console.WriteLine("Que es la ROM ?");
+            Console.WriteLine("A) Beguda alcholica que bebien els pirates");
+            Console.WriteLine("B) Read Only Memory");
+            Console.WriteLine("C) Ritual informatic");
+            Console.WriteLine("D) Es un protocol de xarxa");
+            resposta5 = Console.ReadLine();
+            if (resposta5 == "B") Console.WriteLine("Correcte");
+            DoClear();
+        }
+        
+        
+        // Accio que fa preguntes sobre automovils
+        public static void DoAutomovils()
+        {
+            string resposta1, resposta2, resposta3, resposta4, resposta5;
+            Console.WriteLine("Quina es la teva marca preferida ?");
+            Console.WriteLine("A) Audi");
+            Console.WriteLine("B) BMW");
+            Console.WriteLine("C) Mercedes");
+            Console.WriteLine("D) Altres");
+            resposta1 = Console.ReadLine();
+            if (resposta1 == "B" || resposta1 == "A" || resposta1 == "C" || resposta1 == "D") Console.WriteLine("Correcte");
+            Console.WriteLine("Per on es condueix el cotxe ?");
+            Console.WriteLine("A) Per la dreta de la via");
+            Console.WriteLine("B) Per el centre de la via");
+            Console.WriteLine("C) Per l'esquerra de la via");
+            Console.WriteLine("D) Per fora de la via");
+            resposta2 = Console.ReadLine();
+            if (resposta2 == "A") Console.WriteLine("Correcte");
+            Console.WriteLine("Que has de fer si veus un semafor en groc ?");
+            Console.WriteLine("A) Accelerar");
+            Console.WriteLine("B) Desaccelerar");
+            Console.WriteLine("C) Parar en sec");
+            Console.WriteLine("D) Que es un semafor?");
+            resposta3 = Console.ReadLine();
+            if (resposta3 == "B") Console.WriteLine("Correcte");
+            Console.WriteLine("En una autopista a quina velocitat has d'anar ?");
+            Console.WriteLine("A) La maxima possible");
+            Console.WriteLine("B) 130");
+            Console.WriteLine("C) 100");
+            Console.WriteLine("D) 120");
+            resposta3 = Console.ReadLine();
+            if (resposta3 == "D") Console.WriteLine("Correcte");
+            Console.WriteLine("En un encreuament tu giraras a l'esquerra mentre que el cotxe parat devant teu seguira recte, per on hos creuareu ?");
+            Console.WriteLine("A) Per devant");
+            Console.WriteLine("B) Per derrere");
+            Console.WriteLine("C) No ens creurarem");
+            Console.WriteLine("D) cap de les anterirors");
+            resposta3 = Console.ReadLine();
+            if (resposta3 == "B") Console.WriteLine("Correcte");
+            DoClear();
 
+        }
+        
+        
+        // Accio que fa preguntes matemàtiques
+        public static void DoMatematiques()
+        {
+            string resposta1, resposta2, resposta3, resposta4, resposta5;
+            Console.WriteLine("Si tinc 3 pomes i hem menjo 2,5 quantes pomes tinc ?");
+            Console.WriteLine("A) 0'5");
+            Console.WriteLine("B) 1");
+            Console.WriteLine("C) 2");
+            Console.WriteLine("D) 8");
+            resposta1 = Console.ReadLine();
+            if (resposta1 == "A") Console.WriteLine("Correcte");
+            Console.WriteLine("Si en pep li costa produir llet 50€ el litre i la ven per 75€ el litre quin benefici tindra ?");
+            Console.WriteLine("A) 20€");
+            Console.WriteLine("B) 30€");
+            Console.WriteLine("C) 25€");
+            Console.WriteLine("D) 0€");
+            resposta2 = Console.ReadLine();
+            if (resposta2 == "C") Console.WriteLine("Correcte");
+            Console.WriteLine("si tinc 6 amics i 6 galete quantes galetes pertoquen a cadaescu ?");
+            Console.WriteLine("A) 1");
+            Console.WriteLine("B) 2");
+            Console.WriteLine("C) 0");
+            Console.WriteLine("D) 9");
+            resposta3 = Console.ReadLine();
+            if (resposta3 == "A") Console.WriteLine("Correcte");
+            Console.WriteLine("si 1 + 1 es 2 calcula 8*90  ?");
+            Console.WriteLine("A) 700");
+            Console.WriteLine("B) 420");
+            Console.WriteLine("C) 1060");
+            Console.WriteLine("D) 720");
+            resposta4 = Console.ReadLine();
+            if (resposta4 == "A") Console.WriteLine("Correcte");
+            Console.WriteLine("Es sabuda la solucio de  P = NP ");
+            Console.WriteLine("A) Si");
+            Console.WriteLine("B) No");
+            Console.WriteLine("C) La conec");
+            Console.WriteLine("D) Cap de les anteriors");
+            resposta4 = Console.ReadLine();
+            if (resposta4 == "B") Console.WriteLine("Correcte");
+            DoClear();
 
+        }
+      
         public static void DoMenu()
         {
             Console.WriteLine("Sobre quin tema li agradaria que li fessim preguntes ?");
@@ -135,6 +265,7 @@ namespace DisHub
             Console.ReadKey();
             //Mostra un missatge personalitzat i obliga a pulsar una tecla
             }
+
         }
         //EXECUTA EL TEST DE PREGUNTES SOBRE FISICA
         public static void DoFisica(ConsoleKey Tecla)
@@ -244,6 +375,247 @@ namespace DisHub
             Console.WriteLine(" ");
             Console.Write("RESPOSTA: ");
             r5 = Console.ReadLine();
+        }
+        
+        public static void DoMusica()
+        {
+            char resposta;
+
+            // Pregunta 1
+            Console.WriteLine("Quin es el album mes venut de la Historia?");
+            Console.WriteLine("A) Thriller");
+            Console.WriteLine("B) Back in Black");
+            Console.WriteLine("C) Bat out of Hell");
+            Console.WriteLine("D) The Dark side of the Moon");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'A') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 2
+            Console.WriteLine("Quin es la canço principal de la pelicula Armageddon");
+            Console.WriteLine("A) I Don't Want to Miss a Thing");
+            Console.WriteLine("B) Crazy");
+            Console.WriteLine("C) Cryin'");
+            Console.WriteLine("D) Amazing");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'A') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 3
+            Console.WriteLine("Qui ha sigut el artista mes escoltat de Spotify 2021?");
+            Console.WriteLine("A) Charlie Puth");
+            Console.WriteLine("B) Bad Bunny");
+            Console.WriteLine("C) Drake");
+            Console.WriteLine("D) Ariana Grande");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'B') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 4
+            Console.WriteLine("Qui va guanyar el premi al millor Artista dels premis MTV? ");
+            Console.WriteLine("A) Doja Cat");
+            Console.WriteLine("B) Lady Gaga");
+            Console.WriteLine("C) Lil Nas X");
+            Console.WriteLine("D) Ed Sheeran");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'D') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 5
+            Console.WriteLine("Quin de aquests Grups o Artistes te un Disc d'Urani");
+            Console.WriteLine("A) Queen");
+            Console.WriteLine("B) Pink Floyd");
+            Console.WriteLine("C) BTS");
+            Console.WriteLine("D) Gun's and Roses");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'A') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+        }
+        
+        public static void DoAnime()
+        {
+            char resposta;
+
+            // Pregunta 1
+            Console.WriteLine("Qui es el Protagonista de Kimetsu no Yaiba?");
+            Console.WriteLine("A) Gonpanchiro Kamaboko");
+            Console.WriteLine("B) Itadaki Tontaro");
+            Console.WriteLine("C) Inosuke Hashibira");
+            Console.WriteLine("D) Monjiro Masado");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'C') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 2
+            Console.WriteLine("Quantes partes te JoJo's Bizzare Adventure");
+            Console.WriteLine("A) 9");
+            Console.WriteLine("B) 8");
+            Console.WriteLine("C) 6");
+            Console.WriteLine("D) 5");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'B') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 3
+            Console.WriteLine("Quin estudi es el creador de la obra Koe no Katachi");
+            Console.WriteLine("A) Clover Works");
+            Console.WriteLine("B) MAPPA");
+            Console.WriteLine("C) Ufotable");
+            Console.WriteLine("D) Kyoto Animation");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'D') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 4
+            Console.WriteLine("Quin instrument toca el personatge Tsumugi Kotobuki");
+            Console.WriteLine("A) Teclat");
+            Console.WriteLine("B) Guitarra");
+            Console.WriteLine("C) Baix");
+            Console.WriteLine("D) Bateria");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'A') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 5
+            Console.WriteLine("Qui es el protagonista de principal de Haikyuu!!");
+            Console.WriteLine("A) Hinata Shouyo");
+            Console.WriteLine("B) Yuu Nishinoya");
+            Console.WriteLine("C) Daichi Sawamura");
+            Console.WriteLine("D) Cap es Correcta");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'A') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+        }
+        
+         public static void DoVideojocs()
+        {
+            char resposta;
+
+            // Pregunta 1
+            Console.WriteLine("Quin va ser el últim lloc de treball que va ocupar Satoru Iwata a l'empresa Nintendo?");
+            Console.WriteLine("A) President");
+            Console.WriteLine("B) Desenvolupador de Pokemon");
+            Console.WriteLine("C) Dissenyador Grafic");
+            Console.WriteLine("D) Cap de les Anteriors");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'A') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            // Pregunta 2
+            Console.WriteLine("Qui es el Director de la saga Dark Souls, Bloodborne, Sekiro Shadows Die Twice entre altres?");
+            Console.WriteLine("A) Yoko Taro");
+            Console.WriteLine("B) Tetsuya Nomura");
+            Console.WriteLine("C) Hidetaka Miyazaki");
+            Console.WriteLine("D) Hideaki Itsuno");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'C') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+               
+            /// Pregunta 3
+            Console.WriteLine("Quina ha sigut la primer entrega de Pokemon aquest any (2020) ?");
+            Console.WriteLine("A) Pokemon Negro ");
+            Console.WriteLine("B) Pokemon Leyendas: Arceus");
+            Console.WriteLine("C) Pokemon Mundo Misterioso 2");
+            Console.WriteLine("D) Pokemon Leyendas: Rek'Sai");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'B') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            //Pregunta 4
+            Console.WriteLine("Quina de aquestes empresas forma part de Tencent?");
+            Console.WriteLine("A) Epic Games");
+            Console.WriteLine("B) Blizzard");
+            Console.WriteLine("C) Supercell");
+            Console.WriteLine("D) Totes son correcres");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'D') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+
+            //Pregunta 5
+            Console.WriteLine("Quin joc va ser el GOTY de 2020?");
+            Console.WriteLine("A) Deathloop");
+            Console.WriteLine("B) Undertale");
+            Console.WriteLine("C) Sekiro: Shadows Die Twice");
+            Console.WriteLine("D) The last of us II");
+            resposta = Convert.ToChar(Console.ReadLine());
+
+            if (resposta == 'D') Console.WriteLine("Resposa Correcta");
+            else Console.WriteLine("Resposta Incorrecta");
+
+            Console.WriteLine("CLIC ALGUNA TECLA PER PASSAR DE PREGUNTA");
+            Console.ReadKey();
+            Console.Clear();
+           
         }
         //ACCIÓ QUE EXECUTA EL TEST RELACIONAT AMB BIOLOGIA
         public static void DoBiologia(ConsoleKey Tecla)
