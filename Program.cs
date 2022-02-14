@@ -103,9 +103,9 @@ namespace DisHub
             Console.Writeline("7- Musica");
             Console.Writeline("8- Anime");
             Console.Writeline("9- Videojocs");
-            Console.Writeline("9- Fisica");
-            Console.Writeline("9- Quimica");
-            Console.Writeline("9- Biologia");
+            Console.Writeline("F- Fisica");
+            Console.Writeline("Q- Quimica");
+            Console.Writeline("B- Biologia");
         }
 
         public static void DoClear()
