@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace DisHub
 {
@@ -7,7 +7,8 @@ namespace DisHub
         
          static void Main(string[] args)
         {
-                       ConsoleKeyInfo tecla;
+            ConsoleKeyInfo tecla;
+
             do
             {
                 DoMenu();
@@ -87,7 +88,7 @@ namespace DisHub
 
             } while (tecla.Key != ConsoleKey.D0);
         }
-        
+
         // Accio que fa preguntes sobre informatica
          public static void DoInformatica()
         {
@@ -217,6 +218,56 @@ namespace DisHub
             if (resposta4 == "B") Console.WriteLine("Correcte");
             DoClear();
 
+        }
+
+
+
+
+        public static void DoMenu()
+        {
+            Console.WriteLine("Sobre quin tema li agradaria que li fessim preguntes ?");
+            Console.WriteLine("0- Sortir del programa");
+            Console.WriteLine("1- Informatica");
+            Console.WriteLine("2- Automovils");
+            Console.WriteLine("3- Problemes matemàtics");
+            Console.Writeline("4- Test d'història");
+            Console.Writeline("5- Test de geografia");
+            Console.Writeline("6- Test d'art");
+            Console.Writeline("7- Musica");
+            Console.Writeline("8- Anime");
+            Console.Writeline("9- Videojocs");
+            Console.Writeline("F- Fisica");
+            Console.Writeline("Q- Quimica");
+            Console.Writeline("B- Biologia");
+        }
+
+        public static void DoClear()
+        {
+            ConsoleKeyInfo tecla;
+            Console.WriteLine("1- tornar al menu");
+            Console.WriteLine("0- sortir del programa");
+            tecla = Console.ReadKey();
+            if (tecla.Key == ConsoleKey.D0)
+            {
+                System.Environment.Exit(1);
+            }
+            else if (tecla.Key == ConsoleKey.D1)
+            {
+                Console.Clear();
+            }
+            else
+            {
+                Console.WriteLine("Error, tecla no acceptada, torna a introduir una tecla valida");
+                DoClear();
+            }
+        
+            public static void MissatgeSeguentPantalla(String elMissatge)
+       
+            {
+            Console.WriteLine(elMissatge);
+            Console.ReadKey();
+            //Mostra un missatge personalitzat i obliga a pulsar una tecla
+            }
         }
     }
 }
